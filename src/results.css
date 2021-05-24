@@ -1,0 +1,66 @@
+.editanddelete
+{
+    height: auto;
+    width: 271px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 10px 10px 85px -8px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 85px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 85px -8px rgba(0,0,0,0.75);
+background-color: white;
+display: flex;
+flex-direction: row;
+
+justify-content: space-between;
+margin-left: -35px;
+
+}
+.headingtext{
+    color: rgba(31, 12, 12, 0.747);
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 5px;
+    
+}
+
+#completeicon, #deleteicon
+
+{
+    height: 34px;
+    width: 38px;
+
+}
+ #completeicon
+{
+    background-color: #0D970D;
+    
+    color: white;
+    border: transparent;
+}
+#deleteicon
+{
+    background-color:#CA341F ;
+    color: white;
+    border: transparent;
+}
+#stackicon, #removeicon
+{
+    font-size: medium;
+    font-weight: lighter;
+}
+
+.containor
+{
+    margin-top: 20px;
+}
+.completed
+{
+    color: rgba(31, 12, 12, 0.363);
+    text-decoration: line-through;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 5px;
+
+}
+
+
+
